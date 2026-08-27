@@ -22,7 +22,7 @@ int main() {
     scanf("%d", &population);
 
     
-    printf("\n---------------------------------\n");
+    printf("\n-----------REPORT----------------------\n");
     printf("Municipality : %s\n", municipality);
     printf("Mayor        : %s\n", mayor);
     printf("Population   : %d\n", population);

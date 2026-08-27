@@ -8,7 +8,7 @@ int main() {
 
     
     printf("Municipal Financial Management System\n");
-    printf("Welcome to Windhoek Municipality\n\n");
+    printf("Welcome to Municipality\n\n");
 
    
     printf("Enter Municipality Name: ");

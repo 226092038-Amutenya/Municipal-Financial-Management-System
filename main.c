@@ -12,12 +12,11 @@ int main() {
 
    
     printf("Enter Municipality Name: ");
-    fgets(municipality, sizeof(municipality), stdin);
-    municipality[strcspn(municipality, "\n")] = '\0'; 
+    scanf("%49s", municipality);
 
     printf("Enter Mayor's Name: ");
-    fgets(mayor, sizeof(mayor), stdin);
-    mayor[strcspn(mayor, "\n")] = '\0'; 
+    scanf("%49s", mayor );
+    
     printf("Enter Population: ");
     scanf("%d", &population);
 
